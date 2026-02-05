@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { estudianteService } from '../services/api';
-import EstudiantesTable from '../components/EstudianteTable';
+import EstudiantesTable from '../components/EstudiantesTable';
 
 function HomePage() {
   const [estudiantes, setEstudiantes] = useState([]);
